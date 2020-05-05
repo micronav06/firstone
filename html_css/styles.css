@@ -3,6 +3,7 @@ h1{
     text-align: center;
 }
 h1.one{
-    color:red
+    color:red;
+    text-align: left;
 
 }
