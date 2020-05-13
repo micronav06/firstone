@@ -1,10 +1,12 @@
-h1 {
+.gridlayout {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 20px;
     padding: 50px;
     background-color: maroon;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 /*This is homepage file.*/
@@ -22,21 +24,43 @@ h1 {
 #quote::after{
     content: "\21d2 Joseph Campbell";
     font-weight: bold;
+    text-align: center;
 }
-#gridlayout{
-    display: grid;
-    grid-template-columns: auto;
+img{
+    margin-left: 20px;
 }
 @media print{
     img{
         display: none;
     }
 }
-@media (max-width: 500px){
+@media (max-width: 800px){
     img{
-        margin-left: 60px;
+        margin-left: 70px;
     }
     p{
         text-align: center;
     }
+}
+/*Interests and Hobbies Page*/
+ol{
+    background-color: lightcoral;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+ol > li{
+    font-weight: bold;
+    text-align: center;
+    font-weight: bolder;
+}
+#Likes{
+    background-color: lightsalmon;
+    color: white;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: center;
 }

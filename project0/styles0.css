@@ -1,0 +1,111 @@
+@charset "UTF-8";
+tr td, tr th, #Likes, ol > li, .gridlayout {
+  font-weight: bold;
+  text-align: center;
+}
+
+#Likes, ol > li, .gridlayout {
+  color: white;
+}
+
+tr td, tr th {
+  color: black;
+}
+
+.gridlayout {
+  /*color: white;*/
+  font-family: "Courier New", Courier, monospace;
+  /*text-align: center;*/
+  margin: 20px;
+  padding: 50px;
+  background-color: maroon;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+/*This is homepage file.*/
+#homepage p {
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 100px;
+}
+
+#quote:hover {
+  color: red;
+}
+
+#quote::after {
+  content: "⇒Joseph Campbell";
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  margin-left: 20px;
+}
+
+@media print {
+  img {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  img {
+    margin-left: 70px;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+/*Interests and Hobbies Page*/
+ol {
+  background-color: lightcoral;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#Likes {
+  background-color: lightsalmon;
+  padding: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+}
+
+/*Life Events Page*/
+#tablerow, .head {
+  background-color: mediumaquamarine;
+  text-align: center;
+}
+
+#events {
+  margin: 150px;
+  margin-top: 90px;
+  width: 1000px;
+  height: 800px;
+}
+
+tr th {
+  font-size: 2em;
+}
+tr td {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.age {
+  width: 100px;
+}
+
+.describe {
+  width: 900px;
+}
+
+table, th, .age, .describe {
+  border: 3px solid black;
+}
+
+/*# sourceMappingURL=styles0.css.map */
