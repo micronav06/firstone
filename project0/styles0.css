@@ -1,5 +1,5 @@
 @charset "UTF-8";
-tr td, tr th, #Likes, ol > li, .gridlayout {
+.caption, h6, tr td, tr th, #Likes, ol > li, .gridlayout {
   font-weight: bold;
   text-align: center;
 }
@@ -8,7 +8,7 @@ tr td, tr th, #Likes, ol > li, .gridlayout {
   color: white;
 }
 
-tr td, tr th {
+.caption, h6, tr td, tr th {
   color: black;
 }
 
@@ -106,6 +106,18 @@ tr td {
 
 table, th, .age, .describe {
   border: 3px solid black;
+}
+
+/*Volunteering Page*/
+.volimg {
+  height: 200px;
+  margin: 40px;
+  float: left;
+}
+
+.caption, h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=styles0.css.map */

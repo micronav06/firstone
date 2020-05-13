@@ -110,3 +110,16 @@ tr{
 table, th, .age, .describe{
     border: 3px solid black;
 }
+
+/*Volunteering Page*/
+
+.volimg{
+    height: 200px;
+    margin: 40px;
+    float: left;
+}
+.caption, h6{
+    @extend %tables;
+    font-family: $font-family;
+    font-size: $font-size;
+}
